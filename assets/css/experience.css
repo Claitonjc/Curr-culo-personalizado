@@ -1,0 +1,29 @@
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.experience li {
+    margin-bottom: 1rem;
+}
+
+.experience li .period {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.experience li .period::before {
+    content: "";
+    background-image: url("/assets/img/icons/icons8-calendário-50.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 1rem;
+    margin-right: .5rem;
+    width: 1rem;
+}

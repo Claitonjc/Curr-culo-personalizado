@@ -1,0 +1,30 @@
+
+.languages {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.languages li {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-right: 1rem;
+}
+
+.languages li::before {
+    content: "";
+    background-image: url("/assets/img/icons/icons8-selecionado-48.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 1.25rem;
+    margin-right: .5rem;
+    width: 1.25rem;
+}

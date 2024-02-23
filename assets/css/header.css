@@ -1,0 +1,104 @@
+
+
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.header::before {
+    content: ' ';
+    background-image: url("/assets/img/icons/icons8-reticências-60.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 2rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+}
+
+.header .photo {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.header .title {
+    text-align: center;
+    font-family: Neue Machina;
+}
+
+.information {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.information p {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.125rem;
+    margin: .5rem;
+}
+
+.information p::before {
+    content: ' ';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-right: .5rem;
+    height: 1rem;
+    width: 1rem;
+}
+
+.information .job::before {
+    background-image: url('/assets/img/icons/icons8-user-48.png');
+}
+
+.information .location::before {
+    background-image: url('/assets/img/icons/icons8-marcador-50.png');
+}
+
+.information .email::before {
+    background-image: url('/assets/img/icons/icons8-nova-mensagem-48.png');
+}
+
+.information .phone::before {
+    background-image: url('/assets/img/icons/icons8-whatsapp-50.png');
+}
+
+@media only screen and (min-width: 768px) {
+    .header {
+        display: grid;
+        grid-template-areas: 
+        "photo title"
+        "photo information";
+    }
+
+    .header .photo {
+        grid-area: photo;
+        margin: 0 auto;
+    }
+
+    .header .title {
+        grid-area: title;
+        text-align: start;
+        max-width: 200px;
+    }
+
+    .header .information {
+        grid-area: information;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .main {
+       max-width: 1024px;
+       margin: 1rem auto; 
+    } 
+}

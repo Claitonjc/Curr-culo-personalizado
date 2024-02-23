@@ -1,0 +1,60 @@
+
+{
+    "name": "Claiton J Clemes",
+    "photo": "https://avatars.githubusercontent.com/u/122750409?v=4",
+    "job": "Assistente de controle de estoque",
+    "location": "Araranguá - SC",
+    "phone": "(48) 99864-8228",
+    "email": "Claitoncharlene@outlook.com",
+    "skills": {
+      "hardSkills": [
+        {
+          "name": "HTML",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
+        },
+        {
+          "name": "CSS",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
+        },
+        {
+          "name": "JavaScript",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
+        },
+        {
+          "name": "Github",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/github.png"
+        }
+      ],
+      "softSkills": [
+        "Empatia",
+        "Persistência",
+        "Trabalho em equipe",
+        "Flexibilidade",
+        "Organização"
+      ]
+    },
+    "languages": [
+      "Português BR",
+      "Inglês (iniciante)",
+      "Espanhol (iniciante)"
+    ],
+    "portfolio": [
+      {
+        "name": "Curso Ministrado na DIO para a criação de um clone da página da HBO Max",
+        "url": "https://github.com/Claitonjc/HTML-CSS-Clone-hbomax/tree/template-desafio",
+        "github": true
+      },
+      {
+        "name": "Curso Ministrado na DIO para a criação de um clone da página do Youtube",
+        "url": "https://github.com/Claitonjc/HTML-CSS-Clone-Youtube",
+        "github": true
+      }
+    ],
+    "professionalExperience": [
+      {
+        "name": "Assistente de controle de estoque / Giassi Supermercados",
+        "period": "2006 - até o momento",
+        "description": "Trabalho a 17 anos na empresa Giassi Supermercados, e a 10 anos no setor de controle de estoque. Atualmente estou cursando Análise e desenvolvimento de sistemas na Universidade do Extremo Sul Catarinense (UNESC), e em paralelo fazendo cursos na mesma área, visando migrar de carreira."
+      }
+    ]
+  }
