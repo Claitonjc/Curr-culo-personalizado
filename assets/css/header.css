@@ -9,7 +9,7 @@
 
 .header::before {
     content: ' ';
-    background-image: url("assets/img/icons/icons8-reticências-60.png");
+    background-image: url("../img/icons/icons8-reticências-60.png");
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;

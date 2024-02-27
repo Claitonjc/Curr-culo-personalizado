@@ -19,7 +19,7 @@
 
 .experience li .period::before {
     content: "";
-    background-image: url("assets/img/icons/icons8-calendário-50.png");
+    background-image: url("../img/icons/icons8-calendário-50.png");
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
