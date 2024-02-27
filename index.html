@@ -29,18 +29,17 @@
   <body>
 <main class="main">
     <header class="header">
-        <img src="/assets/img/Images/my-photo.jpg" alt="Foto de Claiton J Clemes" class="photo">
+        <img src="/assets/img/Images/icons8-usuário-de-gênero-neutro-100.png" alt="Foto de perfil" class="photo" id="profile.photo">
         
-        <h1 class="title">Olá, <br>eu sou Claiton J Clemes</h1>
+        <h1 class="title">Olá, <br>eu sou <span id="profile.name">Carregando...</span></h1>
     
       <div class="information">
-          <p class="job">
-            <a href="https://www.linkedin.com/in/claiton-jose-clemes/">Assistente de controle de estoque</p></a>
-          <p class="location">Santa Catarina - BR</p>
+          <p class="job" id="profile.job">Carregando...</p>
+          <p class="location" id="profile.location">Carregando...</p>
           <p class="phone">
-            <a href="tel:(48) 9 9864-8228">(48) 9 9864-8228</p></a>
+            <a href="tel:(48) 9 9864-8228" id="profile.phone">Carregando...</p></a>
           <p class="email">
-            <a href="mailTo:Claitoncharlene@outlook.com">Claitoncharlene@outlook.com</p></a>
+            <a href="mailTo:Claitoncharlene@outlook.com" id="profile.email">Carregando...</p></a>
       </div>
     </header>
 
@@ -53,11 +52,17 @@
         <div class="skills">
             <section class="tools">
               <h3>Ferramentas:</h3>
-              <ul>
+              <ul id="profile.skills.hardSkills">
                 <li>
                   <img src="/assets/img/Images/icons8-html-50.png" alt="HTML" title="html">
+                </li>
+                <li>
                   <img src="/assets/img/Images/icons8-cascading-style-sheets-language-used-for-describing-the-presentation-of-a-document-96.png" class="imageCss" alt="CSS" title="css">
+                </li> 
+                <li>
                   <img src="/assets/img/Images/icons8-javascript-100.png" alt="JavaScript" title="javascript">
+                </li>
+                <li> 
                   <img src="/assets/img/Images/icons8-github-128.png" alt="GIT" title="Git">
                 </li>
               </ul>
@@ -65,11 +70,10 @@
     
             <section class="personal">
               <h3>Pessoal:</h3>
-              <ul>
-                  <li>Persistência</li>
-                  <li>Facilidade de comunicação</li>
-                  <li>Trabalho em equipe</li>
-                  <li>Organização</li>
+              <ul id="profile.skills.softSkills">
+                  <li>Carregando...</li>
+                  <li>Carregando...</li>
+                  <li>Carregando...</li>
               </ul>
             </section>
           </div>
@@ -82,8 +86,8 @@
       </button>
 
       <div class="content">
-        <ul class="languages">
-          <li>Português(BR)</li>
+        <ul class="languages" id="profile.Languages">
+          <li>Carregando...</li>
         </ul>
       </div>
     </section>
@@ -94,19 +98,7 @@
       </button>
 
       <div class="content">
-          <ul class="portfolio">
-            <li>
-              <h3 class="title github">Criando um app de lembrete</h3>
-              <a href="https://www.google.com" target="_blank">www.google.com</a>
-            </li>
-            <li>
-              <h3 class="title">Criando um app de lembrete</h3>
-              <a href="https://www.google.com" target="_blank">www.google.com</a>
-            </li>
-            <li>
-              <h3 class="title">Criando um app de lembrete</h3>
-              <a href="https://www.google.com" target="_blank">www.google.com</a>
-            </li>
+          <ul class="portfolio" id="profile.portfolio">
           </ul>
       </div>
     </section>
@@ -117,15 +109,7 @@
       </button>
 
       <div class="content">
-          <ul class="experience">
-            <li>
-              <h3 class="title">Assistente de controle de estoque / Giassi Supermercados</h3>
-              <p class="period">Nov 2006 - current</p>
-              <p>Trabalho a 17 anos na empresa Giassi Supermercados, e a 10 anos no setor de controle de estoque.
-                Atualmente estou cursando Análise e desenvolvimento de sistemas na Universidade do Extremo Sul Catarinense (UNESC), 
-                e em paralelo fazendo cursos na mesma área, visando migrar de carreira.</p>
-            </li>
-            
+          <ul class="experience" id="profile.professionalExperience">
           </ul>
       </div>
     </section>
@@ -134,5 +118,7 @@
 
 
       <script src="/assets/js/acordeon.js"></script>
+      <script src="/assets/js/api.js"></script>
+      <script src="/assets/js/main.js"></script>
   </body>
 </html>

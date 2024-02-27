@@ -17,6 +17,7 @@
 
 .skills .tools ul img {
     margin: 0 .5rem;
+    max-height: 50px;
     max-width: 50px;
 }
 

@@ -16,7 +16,7 @@
     margin: 1rem 0;
 }
 
-.portfolio li .title {
+.portfolio li h3 {
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -26,7 +26,7 @@
     margin-bottom: .5rem;
 }
 
-.portfolio li .title.github::before {
+.portfolio li h3.github::before {
     content: "";
     background-image: url("/assets/img/icons/icons8-github-32.png");
     background-repeat: no-repeat;
