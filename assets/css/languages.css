@@ -20,7 +20,7 @@
 
 .languages li::before {
     content: "";
-    background-image: url("/assets/img/icons/icons8-selecionado-48.png");
+    background-image: url("assets/img/icons/icons8-selecionado-48.png");
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;

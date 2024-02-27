@@ -9,7 +9,7 @@
 
 .header::before {
     content: ' ';
-    background-image: url("/assets/img/icons/icons8-reticências-60.png");
+    background-image: url("assets/img/icons/icons8-reticências-60.png");
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -57,19 +57,19 @@
 }
 
 .information .job::before {
-    background-image: url('/assets/img/icons/icons8-user-48.png');
+    background-image: url('assets/img/icons/icons8-user-48.png');
 }
 
 .information .location::before {
-    background-image: url('/assets/img/icons/icons8-marcador-50.png');
+    background-image: url('assets/img/icons/icons8-marcador-50.png');
 }
 
 .information .email::before {
-    background-image: url('/assets/img/icons/icons8-nova-mensagem-48.png');
+    background-image: url('assets/img/icons/icons8-nova-mensagem-48.png');
 }
 
 .information .phone::before {
-    background-image: url('/assets/img/icons/icons8-whatsapp-50.png');
+    background-image: url('assets/img/icons/icons8-whatsapp-50.png');
 }
 
 @media only screen and (min-width: 768px) {
