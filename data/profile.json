@@ -21,6 +21,10 @@
           "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
         },
         {
+          "name": "React",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        },
+        {
           "name": "Github",
           "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/github.png"
         }
@@ -40,6 +44,11 @@
     ],
     "portfolio": [
       {
+        "name": "Projeto Vence Menos. Uma aplicação Web para gerenciamento de Validades nos Supermercados.",
+        "url": "https://github.com/Claitonjc/Vence-Menos",
+        "github": true
+      },
+      {
         "name": "Curso Ministrado na DIO para a criação de um clone da página da HBO Max",
         "url": "https://github.com/Claitonjc/HTML-CSS-Clone-hbomax/tree/template-desafio",
         "github": true
@@ -52,9 +61,9 @@
     ],
     "professionalExperience": [
       {
-        "name": "Assistente de controle de estoque / Giassi Supermercados",
+        "name": "Gestão de controle de estoque / Giassi Supermercados",
         "period": "2006 - até o momento",
-        "description": "Trabalho a 17 anos na empresa Giassi Supermercados, e a 10 anos no setor de controle de estoque. Atualmente estou cursando Análise e desenvolvimento de sistemas na Universidade do Extremo Sul Catarinense (UNESC), e em paralelo fazendo cursos na mesma área, visando migrar de carreira."
+        "description": "Trabalho a 17 anos na empresa Giassi Supermercados, e a 10 anos no setor de controle de estoque. Atualmente terminei a faculdade de Análise e desenvolvimento de sistemas na Universidade do Extremo Sul Catarinense (UNESC), e continuo fazendo cursos na mesma área, visando migrar de carreira."
       }
     ]
   }
